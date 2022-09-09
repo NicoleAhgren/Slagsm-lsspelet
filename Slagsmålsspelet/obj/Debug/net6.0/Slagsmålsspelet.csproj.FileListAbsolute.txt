@@ -1,0 +1,15 @@
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\bin\Debug\net6.0\Slagsmålsspelet.exe
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\bin\Debug\net6.0\Slagsmålsspelet.deps.json
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\bin\Debug\net6.0\Slagsmålsspelet.runtimeconfig.json
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\bin\Debug\net6.0\Slagsmålsspelet.dll
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\bin\Debug\net6.0\Slagsmålsspelet.pdb
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\net6.0\Slagsmålsspelet.csproj.AssemblyReference.cache
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\net6.0\Slagsmålsspelet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\net6.0\Slagsmålsspelet.AssemblyInfoInputs.cache
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\net6.0\Slagsmålsspelet.AssemblyInfo.cs
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\net6.0\Slagsmålsspelet.csproj.CoreCompileInputs.cache
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\net6.0\Slagsmålsspelet.dll
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\net6.0\refint\Slagsmålsspelet.dll
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\net6.0\Slagsmålsspelet.pdb
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\net6.0\Slagsmålsspelet.genruntimeconfig.cache
+C:\Users\Nicole\Documents\Skola\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\net6.0\ref\Slagsmålsspelet.dll
