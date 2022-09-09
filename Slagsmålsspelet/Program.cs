@@ -14,7 +14,9 @@ Console.BackgroundColor = ConsoleColor.Green;
  Console.ResetColor();
 
     Console.WriteLine(" ");
-    Console.WriteLine($"{Namn1}: {BubbelHp} Hp {Namn2}: {MolnHp} Hp\n");
+Console.ForegroundColor = ConsoleColor.Blue;
+    Console.WriteLine($"{Namn1}: {BubbelHp}Hp {Namn2}: {MolnHp}Hp\n");
+Console.ResetColor();
 
 int BubbelSkada = generator.Next(35);
 MolnHp -= BubbelSkada;
