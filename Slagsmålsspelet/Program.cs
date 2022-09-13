@@ -8,30 +8,31 @@ int MolnHp = 100;
 
 Random generator = new Random();
 
-while (BubbelHp > 0 && MolnHp > 0) {
-Console.BackgroundColor = ConsoleColor.Green;
+while (BubbelHp > 0 && MolnHp > 0)
+{
+    Console.BackgroundColor = ConsoleColor.Green;
     Console.WriteLine("\n~~ Ny Runda ~~");
- Console.ResetColor();
+    Console.ResetColor();
 
     Console.WriteLine(" ");
-Console.ForegroundColor = ConsoleColor.Blue;
+    Console.ForegroundColor = ConsoleColor.Blue;
     Console.WriteLine($"{Namn1}: {BubbelHp}Hp {Namn2}: {MolnHp}Hp\n");
-Console.ResetColor();
+    Console.ResetColor();
 
-int BubbelSkada = generator.Next(35);
-MolnHp -= BubbelSkada;
-MolnHp = Math.Max(0, MolnHp);
+    int BubbelSkada = generator.Next(35);
+    MolnHp -= BubbelSkada;
+    MolnHp = Math.Max(0, MolnHp);
 
-Console.WriteLine($"{Namn1} blåser sprängbubblor så att {Namn2} förlorar {BubbelSkada} Hp");
+    Console.WriteLine($"{Namn1} blåser sprängbubblor så att {Namn2} förlorar {BubbelSkada} Hp");
 
-int MolnSkada = generator.Next(35);
-BubbelHp -= MolnSkada;
-BubbelHp = Math.Max(0, BubbelHp);
+    int MolnSkada = generator.Next(35);
+    BubbelHp -= MolnSkada;
+    BubbelHp = Math.Max(0, BubbelHp);
 
-Console.WriteLine($"{Namn2} skapar blixtmoln så att {Namn1} förlorar {MolnSkada} Hp");
+    Console.WriteLine($"{Namn2} skapar blixtmoln så att {Namn1} förlorar {MolnSkada} Hp");
 
-Console.WriteLine("Tryck ENTER för att fortsätta");
-Console.ReadKey();
+    Console.WriteLine("Tryck ENTER för att fortsätta");
+    Console.ReadKey();
 }
 
 Console.WriteLine(" ");
