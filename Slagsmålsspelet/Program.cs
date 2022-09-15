@@ -1,12 +1,17 @@
 ﻿using System;
 
-string Namn1 = "Bubbelmannen";
-string Namn2 = "Molnmannen";
+string Namn1 = "";
+string Namn2 = "";
 
 int BubbelHp = 100;
 int MolnHp = 100;
 
 Random generator = new Random();
+
+Console.WriteLine("Välj namnet på karaktär nummer 1 och tryck ENTER");
+Namn1 = Console.ReadLine();
+Console.WriteLine("Välj namnet på karaktär nummer 2 och tryck ENTER");
+Namn2 = Console.ReadLine();
 
 while (BubbelHp > 0 && MolnHp > 0)
 {
