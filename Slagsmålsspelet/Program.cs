@@ -3,8 +3,8 @@
 string Namn1 = "";
 string Namn2 = "";
 
-int BubbelHp = 100;
-int MolnHp = 100;
+int k1Hp = 100;
+int k2Hp = 100;
 
 Random generator = new Random();
 
@@ -13,7 +13,7 @@ Namn1 = Console.ReadLine();
 Console.WriteLine("Välj namnet på karaktär nummer 2 och tryck ENTER");
 Namn2 = Console.ReadLine();
 
-while (BubbelHp > 0 && MolnHp > 0)
+while (k1Hp > 0 && k2Hp > 0)
 {
     Console.BackgroundColor = ConsoleColor.Green;
     Console.WriteLine("\n~~ Ny Runda ~~");
@@ -21,20 +21,20 @@ while (BubbelHp > 0 && MolnHp > 0)
 
     Console.WriteLine(" ");
     Console.ForegroundColor = ConsoleColor.Blue;
-    Console.WriteLine($"{Namn1}: {BubbelHp}Hp {Namn2}: {MolnHp}Hp\n");
+    Console.WriteLine($"{Namn1}: {k1Hp}Hp {Namn2}: {k2Hp}Hp\n");
     Console.ResetColor();
 
-    int BubbelSkada = generator.Next(35);
-    MolnHp -= BubbelSkada;
-    MolnHp = Math.Max(0, MolnHp);
+    int Namn1Skada = generator.Next(35);
+    k2Hp -= Namn1Skada;
+    k2Hp = Math.Max(0, k2Hp);
 
-    Console.WriteLine($"{Namn1} blåser sprängbubblor så att {Namn2} förlorar {BubbelSkada} Hp");
+    Console.WriteLine($"{Namn1} Sparkar så att {Namn2} förlorar {Namn1Skada} Hp");
 
-    int MolnSkada = generator.Next(35);
-    BubbelHp -= MolnSkada;
-    BubbelHp = Math.Max(0, BubbelHp);
+    int Namn2Skada = generator.Next(35);
+    k1Hp -= Namn2Skada;
+    k1Hp = Math.Max(0, k1Hp);
 
-    Console.WriteLine($"{Namn2} skapar blixtmoln så att {Namn1} förlorar {MolnSkada} Hp");
+    Console.WriteLine($"{Namn2} skapar blixtmoln så att {Namn1} förlorar {Namn2Skada} Hp");
 
     Console.WriteLine("Tryck ENTER för att fortsätta");
     Console.ReadKey();
@@ -48,18 +48,21 @@ Console.ResetColor();
 
 Console.WriteLine(" ");
 
-if (MolnHp == 0)
+if (k2Hp == 0)
 {
     Console.WriteLine("Bubbelmannen vann med hjälp av sina sprängbubblor!");
 }
-else if (BubbelHp == 0)
+else if (k1Hp == 0)
 {
     Console.WriteLine("Molnmannen vann med hjälp av sina blixtrande moln!");
 }
-else if (BubbelHp == 0 && MolnHp == 0)
+else if (k1Hp == 0 && k2Hp == 0)
 {
     Console.WriteLine("Båda dog samtidigt. Det blev oavgjort!");
 }
 
 Console.WriteLine("Tryck på ENTER för att avsluta");
 Console.ReadKey();
+
+/* Lägg till att man får välja vilken attck man vill göra och gör en 
+   loop så användaren inte kan gå vidare förens människan gett ett svar */ 
