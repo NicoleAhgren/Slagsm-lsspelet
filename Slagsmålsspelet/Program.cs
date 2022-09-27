@@ -50,11 +50,11 @@ Console.WriteLine(" ");
 
 if (k2Hp == 0)
 {
-    Console.WriteLine("Bubbelmannen vann med hjälp av sina sprängbubblor!");
+    Console.WriteLine($"{Namn1} vann med hjälp av sina sprängbubblor!");
 }
 else if (k1Hp == 0)
 {
-    Console.WriteLine("Molnmannen vann med hjälp av sina blixtrande moln!");
+    Console.WriteLine($"{Namn2} vann med hjälp av sina blixtrande moln!");
 }
 else if (k1Hp == 0 && k2Hp == 0)
 {
