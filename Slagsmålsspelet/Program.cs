@@ -10,6 +10,7 @@ Random generator = new Random();
 
 Console.WriteLine("Välj namnet på karaktär nummer 1 och tryck ENTER");
 Namn1 = Console.ReadLine();
+
 Console.WriteLine("Välj namnet på karaktär nummer 2 och tryck ENTER");
 Namn2 = Console.ReadLine();
 
@@ -24,13 +25,13 @@ while (k1Hp > 0 && k2Hp > 0)
     Console.WriteLine($"{Namn1}: {k1Hp}Hp {Namn2}: {k2Hp}Hp\n");
     Console.ResetColor();
 
-    int Namn1Skada = generator.Next(35);
+    int Namn1Skada = generator.Next(36);
     k2Hp -= Namn1Skada;
     k2Hp = Math.Max(0, k2Hp);
 
     Console.WriteLine($"{Namn1} Sparkar så att {Namn2} förlorar {Namn1Skada} Hp");
 
-    int Namn2Skada = generator.Next(35);
+    int Namn2Skada = generator.Next(36);
     k1Hp -= Namn2Skada;
     k1Hp = Math.Max(0, k1Hp);
 
@@ -64,5 +65,4 @@ else if (k1Hp == 0 && k2Hp == 0)
 Console.WriteLine("Tryck på ENTER för att avsluta");
 Console.ReadKey();
 
-/* Lägg till att man får välja vilken attck man vill göra och gör en 
-   loop så användaren inte kan gå vidare förens människan gett ett svar */ 
+
